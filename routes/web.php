@@ -6,8 +6,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/about', function () {
+Route::get('/abuot', function () {
     return view('about');
 });
-
-// Whatever logic to add reporting
